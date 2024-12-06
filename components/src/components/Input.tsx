@@ -1,5 +1,5 @@
-import React from 'react';
-import './input.scss';
+import React from 'react'
+import './input.scss'
 
 export default function InputPodium(
   {value, type, hasError, placeholder, onChange, onKeyDown}: 

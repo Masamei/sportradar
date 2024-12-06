@@ -3,11 +3,8 @@ import TextProducer from './components/TextProducer'
 
 function App() {
 
-  return (
-    <>
-      <TextProducer />
-    </>
-  )
+  return <TextProducer />
+  
 }
 
 export default App

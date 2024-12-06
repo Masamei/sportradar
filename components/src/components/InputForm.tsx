@@ -1,3 +1,4 @@
+import React from 'react'
 import './InputForm.scss'
 import ErrorIcon from '../assets/error-icon.svg'
 import ButtonPodium from './Button'
