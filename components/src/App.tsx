@@ -1,4 +1,3 @@
-import './App.css'
 import TextProducer from './components/TextProducer'
 
 function App() {

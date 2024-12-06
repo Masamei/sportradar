@@ -9,20 +9,6 @@
     font-size: 15px;
 }   
 
-.form-error {
-    display: flex;
-    flex-direction: row;
-    align-items: first baseline;
-    margin-top: 4px;
-    color: #D20300;
-    font-size: 12px;
-
-    img {
-        align-self: center;
-        margin-right: 2px;
-    }
-}
-
 .form-success {
     display: flex;
     justify-self: end;
