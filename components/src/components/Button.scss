@@ -1,0 +1,41 @@
+.button-podium {
+    display: flex; 
+    align-items: center;
+    height: 32px;
+    background-color: #1F58CF;
+    border-radius: 3px;
+    border: 0px;
+    padding: 6px 12px;
+    margin-left: 16px;
+
+    box-shadow: 0px 1px 2px 0px #0000001A;
+
+    span {
+        font-family: 'Source Sans 3';
+        color: white;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+    }
+
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+  
+    &:hover {
+      cursor: url('../assets/Mano_cursor.svg') 7 0, pointer;
+    }
+
+    &:active {
+      background-color: #053AA8;
+      cursor: url('../assets/Mano_cursor.svg') 7 0, pointer;
+    }
+
+    img {
+        width: 14.5px;
+        height: 14.32px;
+        margin-left: 4px;
+    }
+  }

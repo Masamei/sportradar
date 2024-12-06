@@ -1,0 +1,27 @@
+.text-producer {
+    width: 562px;
+    height: 242px;
+    box-shadow: 0px 0px 4px 0px #00000066;
+
+    display: grid;
+    grid-template-columns: 50px auto auto;
+    grid-template-rows: 104px auto;
+
+    .text-producer-label{
+        display: flex;
+        margin-bottom: 4px;
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        align-self: end;
+    }
+
+    .input-form-container{
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+        display: flex;
+        align-self: start;
+        height: 100%;
+    }
+
+    box-shadow: 0px 0px 4px 0px #00000066;
+}   
