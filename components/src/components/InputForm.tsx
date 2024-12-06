@@ -1,4 +1,3 @@
-import React from 'react'
 import './InputForm.scss'
 import ButtonPodium from './Button'
 import InputPodium from './Input'

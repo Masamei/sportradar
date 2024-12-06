@@ -91,6 +91,18 @@ exports[`Renders the input with numbers and error and checks the snapshot: input
           type="text"
           value="123"
         />
+        <div
+          class="input-error"
+        >
+          <img
+            height="12.25"
+            src="test-file-stub"
+            width="12.25"
+          />
+          <span>
+            No numbers allowed!
+          </span>
+        </div>
       </div>
     </div>
   </body>,
@@ -102,6 +114,18 @@ exports[`Renders the input with numbers and error and checks the snapshot: input
         type="text"
         value="123"
       />
+      <div
+        class="input-error"
+      >
+        <img
+          height="12.25"
+          src="test-file-stub"
+          width="12.25"
+        />
+        <span>
+          No numbers allowed!
+        </span>
+      </div>
     </div>
   </div>,
   "debug": [Function],
